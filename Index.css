@@ -10,6 +10,16 @@
 .u-section-1 .u-group-1 {width: 777px; min-height: 412px; height: auto; margin-top: 74px}
 .u-section-1 .u-text-1 {font-size: 1.875rem; margin-left: 69px; margin-right: 69px} }
 
+@media (max-width: 800px) {
+  * {
+   -webkit-transition: none !important;
+   -moz-transition: none !important;
+   -o-transition: none !important;
+   -ms-transition: none !important;
+   transition: none !important;
+  }
+}
+
 @media (max-width: 991px){ .u-section-1 {background-size: 120%}
 .u-section-1 .u-sheet-1 {min-height: 606px}
 .u-section-1 .u-group-1 {min-height: 416px; margin-top: 95px; margin-right: initial; margin-left: initial; width: auto}

@@ -26,8 +26,11 @@
    -o-transition: none !important;
    -ms-transition: none !important;
    transition: none !important;
+   .fadeIn: none;
   }
 }
+
+
 
 @media (max-width: 767px){ .u-section-1 {background-size: auto 115%}
 .u-section-1 .u-sheet-1 {min-height: 527px}
